@@ -17,16 +17,16 @@ header{
     align-items: center;
     flex-direction: column;
     background-color: #ecbcb4;
-    height: 5vh;
+    height: 6vh;
     position: absolute;
     top: 5rem;    
-    left: 42%;
+    left: 25%;
     z-index: 1;
-    width: 30vh;
+    width: 40vh;
     border-radius: 50px;
-background: #ecbcb4;
-box-shadow:  5px -5px 10px #c2b7b7,
-             -5px 5px 10px #fff7f7;
+    background: linear-gradient(225deg, #eec4be, #ecbcb4);
+    box-shadow:  -5px 5px 10px #1f1d1d,
+                          5px -5px 10px #ffffff;
 }
 
 .container{
@@ -42,8 +42,8 @@ box-shadow:  5px -5px 10px #c2b7b7,
     position: relative;
     border-radius: 50px;
 background: #ecbcb4;
-box-shadow:  5px 5px 10px #c2b7b7,
-             -5px -5px 10px #fff7f7;
+box-shadow:  5px -5px 10px #c2b7b7,
+             -5px 5px 10px #1f1d1d;
 }
 
 .left{
@@ -63,6 +63,8 @@ box-shadow:  5px 5px 10px #c2b7b7,
 .border {
     border-left: 4px solid #5B0E2D;
     height: 75vh;
+    box-shadow:  -5px 5px 5px #1f1d1d,
+                          5px -5px 5px #ffffff;
 }
 
 ul {
