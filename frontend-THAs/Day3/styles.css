@@ -20,7 +20,7 @@ header{
     height: 6vh;
     position: absolute;
     top: 5rem;    
-    left: 25%;
+    left: 39%;
     z-index: 1;
     width: 40vh;
     border-radius: 50px;
@@ -62,7 +62,7 @@ box-shadow:  5px -5px 10px #c2b7b7,
 
 .border {
     border-left: 4px solid #5B0E2D;
-    height: 75vh;
+    height: 65vh;
     box-shadow:  -5px 5px 5px #1f1d1d,
                           5px -5px 5px #ffffff;
 }
