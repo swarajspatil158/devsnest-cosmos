@@ -8,7 +8,6 @@ setInterval(() => {
   y += 1;
 }, 600);
 setInterval(() => {
-  document.querySelector(".hour").style.transform =
-    "rotate(" + z + "deg)";
+  document.querySelector(".hour").style.transform = "rotate(" + z + "deg)";
   z += 1;
 }, 36000);
