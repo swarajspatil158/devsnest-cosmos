@@ -22,11 +22,11 @@ h1{
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 800px;
-  height: 800px;
+  width:800px;
+  height: 600px;
   margin-top: -400px;
   margin-left: -400px;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 4px 8px 16px 0 rgb(20, 19, 19);
   overflow: hidden;
   background: #181818;
@@ -38,8 +38,8 @@ h1{
 
 .seats {
 display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  grid-template-rows: repeat(20, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -49,6 +49,7 @@ display: grid;
 .red{
   border: 2px solid #161618;
   background-color: rgb(185, 81, 81);
+  border-radius: 5px;
 }
 
 
