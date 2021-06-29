@@ -1,18 +1,67 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Day-10</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="status">
-        <h1>Moves Remaining: <span id="moves_counter"></span></h1>
-        <h1>Score: <span id="score"></span></h1>
+    <section class="memory-game">
+      <div class="memory-card" data-framework="bolt">
+        <img class="front-face" src="img/can-bolt.png" />
+        <img class="back-face" src="/img/logo.png" />
       </div>
-      <div id="box"></div>
-    </div>
-    <script src="./script.js" charset="utf-8"></script>
+      <div class="memory-card" data-framework="bolt">
+        <img class="front-face" src="img/can-bolt.png" />
+        <img class="back-face" src="img/logo.png" />
+      </div>
+
+      <div class="memory-card" data-framework="rath">
+        <img class="front-face" src="/img/rath.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+      <div class="memory-card" data-framework="rath">
+        <img class="front-face" src="/img/rath.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+
+      <div class="memory-card" data-framework="am">
+        <img class="front-face" src="/img/am.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+      <div class="memory-card" data-framework="am">
+        <img class="front-face" src="/img/am.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+
+      <div class="memory-card" data-framework="jaws">
+        <img class="front-face" src="/img/jaws.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+      <div class="memory-card" data-framework="jaws">
+        <img class="front-face" src="/img/jaws.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+
+      <div class="memory-card" data-framework="ghost">
+        <img class="front-face" src="/img/ghost-freak.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+      <div class="memory-card" data-framework="ghost">
+        <img class="front-face" src="/img/ghost-freak.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+
+      <div class="memory-card" data-framework="goop">
+        <img class="front-face" src="/img/goop.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+      <div class="memory-card" data-framework="goop">
+        <img class="front-face" src="/img/goop.png" />
+        <img class="back-face" src="/img/logo.png" />
+      </div>
+    </section>
+    <script src="./script.js"></script>
   </body>
 </html>
