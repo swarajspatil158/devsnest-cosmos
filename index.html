@@ -12,6 +12,10 @@
         height: 100vh;
         overflow: hidden;
       }
+      html,
+      body {
+        margin: 10px;
+      }
 
       @keyframes gradient {
         0% {
@@ -27,24 +31,30 @@
 
       .container {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
+        border: 5px solid gold;
+        margin: 1%;
         padding: 0;
-        flex-direction: column;
+        flex-wrap: wrap;
+        box-shadow: 1vh;
+        border-width: 2px;
+        box-shadow: 22px 22px 2px 1px rgba(0, 0, 255, 0.2);
+        border-radius: 10px;
+        background: linear-gradient(-45deg, #e73c7e, #23d5ab);
+        background-size: 400% 400%;
+        /* animation: gradient 15s ease infinite;    #ee7752, #23a6d5, */
       }
       .button {
         padding: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10px;
+        padding: 30px;
 
         font-style: italic;
         border-radius: 50px;
-        font-size: 20px;
+        /* font-size: 20px; */
         border-radius: 10px;
-        background: linear-gradient(145deg, #66ccff, #66ccff);
+        background: linear-gradient(145deg, #23a6d5, #23a6d5);
         box-shadow: 4px 4px 5px #777777, 1px 1px 5px #000000;
       }
 
@@ -55,18 +65,19 @@
         color: #181818;
         background-color: transparent;
         text-decoration: none;
-        font-weight: bold;
-        margin: 10px;
+        font-weight: bolder;
+        font-size: 2rem;
+        margin: 20px;
       }
       .button:hover {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 30px;
         flex-direction: column;
-        padding: 10px;
         border-color: rgb(0, 0, 0);
         font-style: italic;
-        font-size: 20px;
+        /* font-size: 20px; */
         background: linear-gradient(145deg, #ff6699, #ff6699);
         box-shadow: 1px 1px 5px #ff6699, 1px 1px 5px #ffffff;
       }
@@ -74,10 +85,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 40px;
+        font-size: 4rem;
         position: relative;
-        margin-bottom: 0;
+        margin: 1%;
         padding: 0;
+        box-shadow: 4px 4px 5px #000000, 1px 1px 5px #000000;
+
         font-style: italic;
       }
     </style>
