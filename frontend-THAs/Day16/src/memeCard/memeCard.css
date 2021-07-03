@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  display: flex;
+  min-height: 300px;
+  width: 300px;
+  flex-direction: column;
+  background-color: rgb(51, 66, 99);
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 10px 137px rgb(235, 66, 94);
+
+  overflow: hidden;
+}
+
+.Card:hover {
+  box-shadow: 5px 5px 5px rgb(105, 4, 21);
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.Text {
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+}
+.meme {
+  background-image: url(./meme.jpg);
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+}
+
+.mainHeading,
+.mainPara {
+  color: #fff;
+  margin-top: 10px;
+}
