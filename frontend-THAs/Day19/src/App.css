@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+
+.counter {
+  /* display: flex; */
+  background-color: #181818;
+  border: none;
+  border-radius: 5px;
+  color: #818181;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px;
+  margin: 12px;
+  transition: 0.1s;
+}
+
+.counter:hover {
+  /* display: flex; */
+  background-color: #d83a56;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+  padding: 22px;
+  font-size: 20px;
+  margin: 10px;
+}
