@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #818181;
+}
+body {
+  background-color: #000000;
+}
+
+.calorie-list {
+
+    border: 2px solid #00adff;
+    max-height: 90vh;
+    overflow: auto;
+    border-radius: 10px;
+    color: #007e9e;
+    padding: 10px;
+    margin-left: 26%;
+    margin-top: 10%;
+    height: 40vh;
+    width: 50vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(175, 175, 175);
+    border-radius: 5px;
+    border-color: #818181;
+  }
+  
+  .calorie-list .calorie-card {
+    width: 90%;
+    background: #161618;
+    padding: 5px 5px 26px;
+    margin: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .calorie-list .calorie-card .name {
+    font-size: 20px;
+  }
+ .delete {
+    padding-top:12px ;
+    font-size: 10px;
+    color: #c95050;
+    font-weight:bold ;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .delete:hover {
+    width: 80px;
+    font-size: 15px;
+  }
