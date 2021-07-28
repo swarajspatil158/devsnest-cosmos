@@ -39,7 +39,7 @@ function App() {
               text0: topText,
               text1: bottomText,
               username: "xzk03017",
-              password: "xzk03017@cndps.com"
+              password: "#########"
             };
             const response = await fetch(
               `https://api.imgflip.com/caption_image${objectToQueryParam(
