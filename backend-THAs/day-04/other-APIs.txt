@@ -1,0 +1,7 @@
+SOAP:
+SOAP, or Simple Object Access Protocol, is an API that connects different platforms together through HTTP and XML. The structure and requirements for SOAP are more rigid than REST, and it’s defined by a specific protocol. Web applications have started moving away from this older API type, as it’s harder to implement flexible integration. However, this structure does allow for more stringent security measures and includes stateful operations without custom coding.
+ 
+ASP.NET:
+ASP.NET is a specific form of a REST API designed around .NET technology. In most cases, a Windows server is required to easily work with this technology. The primary benefit to the .Net API type is the structured framework that’s in place. If you’re working with Windows-based technology, you can send HTTP protocol messages to a variety of platforms. The entire framework is lightweight and easy to work with, which can speed up development time and add flexibility into your third-party integration.
+
+APIs are a powerful tool for working closely with your payment solution. You can improve your user experience by keeping customers on your site rather than sending them elsewhere, and you have many ways to work with the data and features available from your card payment solutions. When you’re choosing a new payment provider, take a look at the API types they offer and what you can do with it in your existing infrastructure.
