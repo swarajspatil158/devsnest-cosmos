@@ -18,4 +18,5 @@ For example, the [latest-fermium](https://nodejs.org/download/release/latest-fer
 - install the dependencies using  ->
 	*     npm install
 - Goto your working direcory and run `mycommand` <- this command in your terminal to create boilerplate.
-**Note** : if command is not working,make sure *global* version of node is installed.
+
+- **Note** : if command is not working,make sure *global* version of node is installed.
