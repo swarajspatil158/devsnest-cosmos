@@ -1,16 +1,10 @@
 const express = require('express')
 const path = require('path')
 const app = express()
-const port = 3000
+const port = 5000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.get('/about',(req,res)=>{
-    // res.send('about')
-    // res.sendFile(path.join(__dirname,'index.html'))
-    res.json({"tech":'vim'})
+app.use('/',(req,res)=>{
+  res.sendFile(path.join(__dirname,'/public/Hello.txt'),'test.txt')
 })
 
 app.listen(port, () => {
