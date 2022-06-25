@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post</title>
+  </head>
+  <body>
+    <article>
+        <header>
+          <h1>What Every React Developer Should Know About State</h1>
+          <p>
+              <pre>
+                One of the most important concepts for every React developer
+                to understand is state what it is, how to properly use it, and
+                how to avoid common pitfalls as you build your applications.
+                  </pre>
+          </p>
+        </header>
+        <main>
+          <section>
+            <h3>1. State updates with useState are not merged</h3>
+            <p>
+              One challenge many React developers face when moving from class-based
+              components to function components with React hooks is that state
+              updates using objects are no longer automatically merged. A great
+              advantage of the useState hook is that we are able to call it as many
+              times as we like to use as many state variables as we need.
+            </p>
+          </section>
+          <hr>
+          <section>
+            <h3>2. State hooks trigger a re-render, useRef does not</h3>
+            <p>
+              React state has a very important relationship with rendering
+              components. Whenever we return JSX from a React component, when that
+              component is used, it will be rendered and therefore displayed in our
+              application. React takes care of this rendering process. If our
+              component uses any state, we must understand that it needs to be
+              rendered again that is, re-rendered in response to any state update.
+            </p>
+          </section>
+        </main>
+        <footer>
+          <p>Copyright 2022 UI/UX. All rights reserved.</p>
+        </footer>
+    </article>
+  </body>
+</html>
